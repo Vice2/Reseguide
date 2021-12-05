@@ -6,12 +6,24 @@
 //
 
 import SwiftUI
+import Firebase
 
 @main
 struct ReseguideApp: App {
+    
+    init ()
+    {
+    FirebaseApp.configure()
+    }
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            //ContentView()
+            //LoginView()
+            //TestingStuffView()
+            MainView()
+            //CreateAccountView()
+        
         }
     }
 }

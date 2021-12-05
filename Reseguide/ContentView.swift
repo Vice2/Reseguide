@@ -8,9 +8,25 @@
 import SwiftUI
 
 struct ContentView: View {
+
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        
+        NavigationView {
+            VStack {
+                Image("Reseguide Vertical")
+                    .padding(.bottom, 150.0)
+                
+                
+                NavigationLink(destination: LoginView()){
+                    WhiteButton(blacktext: "Logga in")
+                }
+            
+                NavigationLink(destination: CreateAccountView()){
+                    GreyButton(whitetext: "Skapa konto")
+                }
+                    
+            }
+        }
     }
 }
 
@@ -19,3 +35,4 @@ struct ContentView_Previews: PreviewProvider {
         ContentView()
     }
 }
+
