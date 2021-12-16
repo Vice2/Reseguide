@@ -23,6 +23,15 @@
 		E84C2739274FD20400CBFDE7 /* TestingStuffView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E84C2738274FD20400CBFDE7 /* TestingStuffView.swift */; };
 		E8A3446E275D106E0055333B /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8A3446D275D106E0055333B /* MainView.swift */; };
 		E8C7439C2758F3ED00E5B3DA /* Firebasestuff.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8C7439B2758F3ED00E5B3DA /* Firebasestuff.swift */; };
+		E8E67F5327695CE100CA798F /* AventyrsbadetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8E67F5227695CE100CA798F /* AventyrsbadetView.swift */; };
+		E8E67F5527695E8C00CA798F /* DalbyKalkbrottView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8E67F5427695E8C00CA798F /* DalbyKalkbrottView.swift */; };
+		E8E67F5727695FB300CA798F /* HogevallsbadetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8E67F5627695FB300CA798F /* HogevallsbadetView.swift */; };
+		E8E67F5927695FDD00CA798F /* OdeshogView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8E67F5827695FDD00CA798F /* OdeshogView.swift */; };
+		E8EA68E827679A83004535C0 /* TilesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8EA68E727679A83004535C0 /* TilesView.swift */; };
+		E8EA68EA2767A8DC004535C0 /* BadplatserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8EA68E92767A8DC004535C0 /* BadplatserView.swift */; };
+		E8EA68EC2767ACC8004535C0 /* VandringView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8EA68EB2767ACC8004535C0 /* VandringView.swift */; };
+		E8EA68EE2767ACDF004535C0 /* MuseumView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8EA68ED2767ACDF004535C0 /* MuseumView.swift */; };
+		E8EA68F02767AD0C004535C0 /* UtsiktsplatserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8EA68EF2767AD0C004535C0 /* UtsiktsplatserView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +48,15 @@
 		E84C2738274FD20400CBFDE7 /* TestingStuffView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestingStuffView.swift; sourceTree = "<group>"; };
 		E8A3446D275D106E0055333B /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		E8C7439B2758F3ED00E5B3DA /* Firebasestuff.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Firebasestuff.swift; sourceTree = "<group>"; };
+		E8E67F5227695CE100CA798F /* AventyrsbadetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AventyrsbadetView.swift; sourceTree = "<group>"; };
+		E8E67F5427695E8C00CA798F /* DalbyKalkbrottView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DalbyKalkbrottView.swift; sourceTree = "<group>"; };
+		E8E67F5627695FB300CA798F /* HogevallsbadetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HogevallsbadetView.swift; sourceTree = "<group>"; };
+		E8E67F5827695FDD00CA798F /* OdeshogView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OdeshogView.swift; sourceTree = "<group>"; };
+		E8EA68E727679A83004535C0 /* TilesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TilesView.swift; sourceTree = "<group>"; };
+		E8EA68E92767A8DC004535C0 /* BadplatserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadplatserView.swift; sourceTree = "<group>"; };
+		E8EA68EB2767ACC8004535C0 /* VandringView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VandringView.swift; sourceTree = "<group>"; };
+		E8EA68ED2767ACDF004535C0 /* MuseumView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MuseumView.swift; sourceTree = "<group>"; };
+		E8EA68EF2767AD0C004535C0 /* UtsiktsplatserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UtsiktsplatserView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +74,38 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E8098159276A200A00D2AB92 /* Badplatser */ = {
+			isa = PBXGroup;
+			children = (
+				E8E67F5227695CE100CA798F /* AventyrsbadetView.swift */,
+				E8E67F5427695E8C00CA798F /* DalbyKalkbrottView.swift */,
+				E8E67F5627695FB300CA798F /* HogevallsbadetView.swift */,
+				E8E67F5827695FDD00CA798F /* OdeshogView.swift */,
+			);
+			path = Badplatser;
+			sourceTree = "<group>";
+		};
+		E809815A276A204900D2AB92 /* Vandring */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Vandring;
+			sourceTree = "<group>";
+		};
+		E809815B276A206200D2AB92 /* Museum */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Museum;
+			sourceTree = "<group>";
+		};
+		E809815C276A207900D2AB92 /* Utsiktplatser */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utsiktplatser;
+			sourceTree = "<group>";
+		};
 		E8310469274D0738007A3EED = {
 			isa = PBXGroup;
 			children = (
@@ -76,6 +126,7 @@
 			isa = PBXGroup;
 			children = (
 				E84C272C274FCD0A00CBFDE7 /* GoogleService-Info.plist */,
+				E8E67F5127695C7D00CA798F /* TheInfoViews */,
 				E84C2737274FCE3E00CBFDE7 /* Designed */,
 				E8310475274D0738007A3EED /* ReseguideApp.swift */,
 				E8310477274D0738007A3EED /* ContentView.swift */,
@@ -83,7 +134,11 @@
 				E8C7439B2758F3ED00E5B3DA /* Firebasestuff.swift */,
 				E84C2738274FD20400CBFDE7 /* TestingStuffView.swift */,
 				E8A3446D275D106E0055333B /* MainView.swift */,
+				E8EA68EB2767ACC8004535C0 /* VandringView.swift */,
+				E8EA68ED2767ACDF004535C0 /* MuseumView.swift */,
+				E8EA68E92767A8DC004535C0 /* BadplatserView.swift */,
 				E83104A5274D33AA007A3EED /* CreateAccountView.swift */,
+				E8EA68EF2767AD0C004535C0 /* UtsiktsplatserView.swift */,
 				E8310479274D073D007A3EED /* Assets.xcassets */,
 				E831047B274D073D007A3EED /* Preview Content */,
 			);
@@ -103,8 +158,20 @@
 			children = (
 				E83104A7274D36BA007A3EED /* WhiteButton.swift */,
 				E83104A9274D36C7007A3EED /* GreyButton.swift */,
+				E8EA68E727679A83004535C0 /* TilesView.swift */,
 			);
 			path = Designed;
+			sourceTree = "<group>";
+		};
+		E8E67F5127695C7D00CA798F /* TheInfoViews */ = {
+			isa = PBXGroup;
+			children = (
+				E809815C276A207900D2AB92 /* Utsiktplatser */,
+				E809815B276A206200D2AB92 /* Museum */,
+				E809815A276A204900D2AB92 /* Vandring */,
+				E8098159276A200A00D2AB92 /* Badplatser */,
+			);
+			path = TheInfoViews;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -187,15 +254,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E8EA68E827679A83004535C0 /* TilesView.swift in Sources */,
 				E83104A4274D328F007A3EED /* LoginView.swift in Sources */,
+				E8E67F5927695FDD00CA798F /* OdeshogView.swift in Sources */,
+				E8EA68F02767AD0C004535C0 /* UtsiktsplatserView.swift in Sources */,
+				E8E67F5727695FB300CA798F /* HogevallsbadetView.swift in Sources */,
 				E8A3446E275D106E0055333B /* MainView.swift in Sources */,
 				E84C2739274FD20400CBFDE7 /* TestingStuffView.swift in Sources */,
 				E8310478274D0738007A3EED /* ContentView.swift in Sources */,
+				E8EA68EC2767ACC8004535C0 /* VandringView.swift in Sources */,
+				E8EA68EA2767A8DC004535C0 /* BadplatserView.swift in Sources */,
+				E8E67F5527695E8C00CA798F /* DalbyKalkbrottView.swift in Sources */,
+				E8EA68EE2767ACDF004535C0 /* MuseumView.swift in Sources */,
 				E83104A6274D33AA007A3EED /* CreateAccountView.swift in Sources */,
 				E8310476274D0738007A3EED /* ReseguideApp.swift in Sources */,
 				E83104AA274D36C7007A3EED /* GreyButton.swift in Sources */,
 				E83104A8274D36BB007A3EED /* WhiteButton.swift in Sources */,
 				E8C7439C2758F3ED00E5B3DA /* Firebasestuff.swift in Sources */,
+				E8E67F5327695CE100CA798F /* AventyrsbadetView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

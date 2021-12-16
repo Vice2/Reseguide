@@ -21,9 +21,9 @@ struct ReseguideApp: App {
             //ContentView()
             //LoginView()
             //TestingStuffView()
-            MainView()
+           MainView()
             //CreateAccountView()
-        
+            //TilesView()
         }
     }
 }

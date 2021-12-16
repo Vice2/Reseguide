@@ -21,6 +21,5 @@ class LoginInfo: Identifiable {
     var email = ""
     var password = ""
     
-    
-    
 }
+

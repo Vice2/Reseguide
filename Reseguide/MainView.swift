@@ -10,16 +10,23 @@ import Firebase
 
 struct MainView: View {
     
+    var ref: DatabaseReference!
     
-    @State var login = true
+    /*
+     NavigationLink(destination: VandringView()){
+         TilesView(tilepic: "lookout", tileicon: "icondunbar", tiletext: "Utiktsplatser")
+     }
+     */
+    @State var login = false
+    
+    init() {
+        ref = Database.database().reference()
+    }
     
     var body: some View {
         
         
-        EmptyView().fullScreenCover(isPresented: $login, content: {
-            ContentView()
-        })
-        
+       
         /*NavigationView {
         HStack(alignment: .center) {
             GeometryReader { geo in
@@ -33,8 +40,45 @@ struct MainView: View {
     }*/
         
         NavigationView {
-            Text("HEJSAN")
-                .navigationBarTitle("Main View", displayMode: .automatic)
+            VStack {
+                HStack {
+                    NavigationLink(destination: BadplatserView()){
+                        TilesView(tilepic: "beachgirl", tileicon: "icon_wave", tiletext: "Badplatser")
+                    }
+                    
+                    
+                    NavigationLink(destination: VandringView()){
+                        TilesView(tilepic: "hiking", tileicon: "iconmountain", tiletext: "Vandring")
+                    }
+                    
+                }
+                HStack {
+                    NavigationLink(destination: VandringView()){
+                        TilesView(tilepic: "museum", tileicon: "iconmuse", tiletext: "Museum")
+                    }
+                    
+                    
+                    NavigationLink(destination: VandringView()){
+                        TilesView(tilepic: "lookout", tileicon: "icondunbar", tiletext: "Utiktsplatser")
+                    }
+                    
+                }
+                Button(action: {
+                  				
+                    let firebaseAuth = Auth.auth()
+                do {
+                  try firebaseAuth.signOut()
+                } catch let signOutError as NSError {
+                  print("Error signing out: %@", signOutError)
+                }
+                  
+                    
+                }) {
+                    Text("Logga ut")
+                        .foregroundColor(.red)
+                }
+            }
+            
         }.onAppear(perform: {
             print("NU HÄNDER viewDidAppear")
             
@@ -45,6 +89,12 @@ struct MainView: View {
                 login = true
             }
         })
+        /*
+         .fullScreenCover(isPresented: $login, content: {
+             ContentView()
+         })
+         */
+        
 }
 
 }

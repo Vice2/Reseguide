@@ -1,17 +1,17 @@
 {
   "images" : [
     {
-      "filename" : "Första.png",
+      "filename" : "dalbykalkbrott.png",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
-      "filename" : "Första@2x.png",
+      "filename" : "dalbykalkbrott@2x.png",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
-      "filename" : "Första@3x.png",
+      "filename" : "dalbykalkbrott@3x.png",
       "idiom" : "universal",
       "scale" : "3x"
     }
